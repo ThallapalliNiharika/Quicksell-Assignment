@@ -2,6 +2,7 @@
   "name": "quicksell",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://<username>.github.io/quicksell",  // Add this line
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,13 +16,16 @@
     "react-redux": "^8.1.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.19",
+    "gh-pages": "^4.0.0"  // Add gh-pages if you haven't already
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",  
+    "deploy": "gh-pages -d build"   
   },
   "eslintConfig": {
     "extends": [
