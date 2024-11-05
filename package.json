@@ -2,7 +2,7 @@
   "name": "quicksell",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<username>.github.io/quicksell",  // Add this line
+  "homepage": "https://thallapalliniharika.github.io/Quicksell-Assignment/",  
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -17,7 +17,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19",
-    "gh-pages": "^4.0.0"  // Add gh-pages if you haven't already
+    "gh-pages": "^4.0.0"  
   },
   "scripts": {
     "start": "react-scripts start",
